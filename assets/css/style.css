@@ -250,3 +250,38 @@ body {
     }
 
 }
+
+@media screen and (max-width: 475px) {
+    .game-area {
+        min-height: 125vh;
+    }
+
+    .btn--big {
+        margin: 30px;
+    }
+
+    .question-area {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 476px) and (max-width: 940px) {
+    .game-area {
+        min-height: 85vh;
+    }
+
+    .btn--big {
+        margin: 30px;
+    }
+
+    .controls-area {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;        
+    }
+
+    .question-area {
+        width: 100%;
+    }
+}
